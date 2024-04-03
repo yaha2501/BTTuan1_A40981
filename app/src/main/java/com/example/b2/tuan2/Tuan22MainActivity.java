@@ -15,7 +15,6 @@ import com.example.b2.R;
 
 public class Tuan22MainActivity extends AppCompatActivity {
     ListView lv;
-
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +27,7 @@ public class Tuan22MainActivity extends AppCompatActivity {
         // adapter
         ArrayAdapter<String>
                 adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1,arr);
+        // adapter: 1(được sử dụng cho cái nào), 2(giao diện sử dung), 3(nguồn dữ liệu)
         // show on listview
         lv.setAdapter(adapter);
 
