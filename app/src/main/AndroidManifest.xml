@@ -13,21 +13,25 @@
         android:theme="@style/Theme.B2"
         tools:targetApi="31">
         <activity
-            android:name=".tuan1.Tuan1MainActivity"
-            android:exported="true" >
+            android:name=".tuan2.Tuan22MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
-            android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.B2.NoActionBar">
-
-        </activity>
+            android:name=".tuan2.Tuan21MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".tuan2.Tuan2MainActivity"
+            android:exported="true">
+        </activity> <!-- <activity -->
+        <!-- android:name=".tuan1.MainActivity" -->
+        <!-- android:exported="false" /> -->
+        <activity
+            android:name=".tuan1.Tuan1MainActivity"
+            android:exported="true" />
     </application>
 
 </manifest>
