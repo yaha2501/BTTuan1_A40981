@@ -19,7 +19,7 @@ public class Tuan41VolleyFunction {
         //1. Tao Request
         RequestQueue queue = Volley.newRequestQueue(context);
         //2. URL
-        String url = "http://192.168.88.75/dashboard/api1.json"; // link json format
+        String url = "https://hungnttg.github.io/array_json_new.json"; // link json format
         //3. Goi Request
         //JsonArrayRequest(url, thanh cong, that bai)
         JsonArrayRequest request = new JsonArrayRequest(url,
