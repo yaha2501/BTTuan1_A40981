@@ -35,17 +35,17 @@ public class Tuan41VolleyFunction {
                                 String id = person.getString("id");// lay ve id
                                 String name = person.getString("name");
                                 String email = person.getString("email");
-                                String address = person.getString("address");
-                                String gender = person.getString("gender");
-                                String profile_pic = person.getString("profile");
+//                                String address = person.getString("address");
+//                                String gender = person.getString("gender");
+//                                String profile_pic = person.getString("profile");
 
                                 // noi cac chuoi tren
                                 strJson += "Id: "+id+"\n";
                                 strJson += "Name: "+name+"\n";
                                 strJson += "Email: "+email+"\n";
-                                strJson += "Adress: "+email+"\n";
-                                strJson += "Gender: "+email+"\n";
-                                strJson += "Profile: "+email+"\n";
+//                                strJson += "Address: "+address+"\n";
+//                                strJson += "Gender: "+gender+"\n";
+//                                strJson += "Profile: "+profile_pic+"\n";
                             } catch (JSONException e) {
                                 throw new RuntimeException(e);
                             }

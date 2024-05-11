@@ -1,5 +1,4 @@
 package com.example.b2.Tuan3;
-
 public class Tuan3Contact {
     private String name;
     private String desc;
