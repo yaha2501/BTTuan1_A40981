@@ -35,7 +35,7 @@ public class Tuan41VolleyFunction {
                                 String id = person.getString("id");// lay ve id
                                 String name = person.getString("name");
                                 String email = person.getString("email");
-//                                String address = person.getString("address");
+                                String address = person.getString("address");
 //                                String gender = person.getString("gender");
 //                                String profile_pic = person.getString("profile");
 
@@ -43,7 +43,7 @@ public class Tuan41VolleyFunction {
                                 strJson += "Id: "+id+"\n";
                                 strJson += "Name: "+name+"\n";
                                 strJson += "Email: "+email+"\n";
-//                                strJson += "Address: "+address+"\n";
+                                strJson += "Address: "+address+"\n";
 //                                strJson += "Gender: "+gender+"\n";
 //                                strJson += "Profile: "+profile_pic+"\n";
                             } catch (JSONException e) {
