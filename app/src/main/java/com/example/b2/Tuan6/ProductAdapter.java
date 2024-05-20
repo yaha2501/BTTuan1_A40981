@@ -66,6 +66,8 @@ public class ProductAdapter extends BaseAdapter{
             holder.priceTv.setText(product.getPrice());
             holder.additionalInfoTv.setText(product.getAdditionalInfo());
         }
+        // xủ lý sự kiện
+
         return convertView;
     }
     static class ViewHolderT61 {
